@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/stylesheet.css">
+
 <body>
-
-
-<form action="https://calculatorls.azurewebsites.net/api/calculate_add?" method="get" target="_blank">
-  <label for="num1">Nummer 1:</label>
-  <input type="text" id="num1" name="num1"><br><br>
-  <label for="num2">Nummer 2:</label>
-  <input type="text" id="num2" name="num2"><br><br>
-  <input type="submit" value="+">
-  <input type="submit" value="-" formaction="https://calculatorls.azurewebsites.net/api/calculate_subtract?">
-  <input type="submit" value="*" formaction="https://calculatorls.azurewebsites.net/api/calculate_multiply?">
-  <input type="submit" value="/" formaction="https://calculatorls.azurewebsites.net/api/calculate_divide?">
-</form>
-
+<div class="Form">
+  <h1> Taschenrechner </h1>
+  <form action="https://calculatorls.azurewebsites.net/api/calculate_add?" method="get" target="_blank">
+    <label for="num1">Nummer 1:</label><br>
+    <input type="text" id="num1" name="num1"><br><br>
+    <label for="num2">Nummer 2:</label><br>
+    <input type="text" id="num2" name="num2"><br><br>
+    <input class="button" type="submit" value="+">
+    <input class="button" type="submit" value="-" formaction="https://calculatorls.azurewebsites.net/api/calculate_subtract?">
+    <input class="button" type="submit" value="*" formaction="https://calculatorls.azurewebsites.net/api/calculate_multiply?">
+    <input class="button" type="submit" value="/" formaction="https://calculatorls.azurewebsites.net/api/calculate_divide?">
+  </form>
+</div>
 </body>
 </html>
